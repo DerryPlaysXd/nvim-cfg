@@ -16,7 +16,7 @@ fi
 
 if [[ ! -d "$LINUXTOOLBOXDIR/neovim" ]]; then
     echo -e "${YELLOW}Cloning neovim repository into: $LINUXTOOLBOXDIR/neovim${RC}"
-    git clone https://github.com/ChrisTitusTech/neovim "$LINUXTOOLBOXDIR/neovim"
+    git clone https://github.com/DerryPlaysXd/nvim-cfg "$LINUXTOOLBOXDIR/neovim"
     if [[ $? -eq 0 ]]; then
         echo -e "${GREEN}Successfully cloned neovim repository${RC}"
     else
