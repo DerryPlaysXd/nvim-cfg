@@ -40,7 +40,7 @@ rm -rf ~/.config/nvim ~/.local/share/nvim ~/.cache/nvim
 # Setup Neovim config and link to linuxtoolbox
 mkdir -p "$HOME/.vim/undodir"
 mkdir -p "$HOME/.scripts"
-ln -s "$gitpath/titus-kickstart" "$HOME/.config/nvim"
+ln -s "$gitpath/derry-kickstart" "$HOME/.config/nvim"
 
 # Share system clipboard with unnamedplus
 if [ -f /etc/os-release ]; then
